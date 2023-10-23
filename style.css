@@ -55,9 +55,8 @@ button {
 }
 
 @media screen and (max-whidh:400px){
-   .flex-categoías{
-      flex-direction: row;
-      align-items: center;
+   .cflex-items{
+      flex-direction: column;
    }
 }
  
