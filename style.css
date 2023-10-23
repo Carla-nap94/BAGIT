@@ -1,0 +1,63 @@
+.logo{
+    justify-content: center;
+    width: 100px;
+    display: flex;
+}
+
+.carrito {
+    width: 20px;
+}
+
+.categorías{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-items{
+   margin: 2%;
+   width: 80%;
+}
+
+button {
+    color: rgb(252, 152, 168);
+    background-color: white;
+    border: rgb(252, 152, 168);
+ }
+
+ .crear-iniciar-carrito {
+   display: flex;
+   justify-content: right;
+ }
+
+ .titulo-categorías {
+    text-align: center;
+    color: rgb(252, 152, 168);
+    font-family: 'Playfair Display', serif;
+ }
+
+ .cabecera{
+   display: flex;
+   justify-content: center;
+ }
+
+ .form{
+    text-align: center;
+    color: rgb(252, 152, 168);
+ }
+
+ body{
+   text-align: center;
+ }
+ 
+.pie{
+   display: flex;
+   justify-content: center;
+}
+
+@media screen and (max-whidh:400px){
+   .flex-categoías{
+      flex-direction: row;
+      align-items: center;
+   }
+}
+ 

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyZ Tortas Personalizadas</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="crear-iniciar-carrito">
+            <div class="crear-cuenta"><button>Crear cuenta</button></div>
+            <div class="iniciar-seción"><button>Iniciar seción</button></div>
+            <div><button><img src="images/carrito.png" class="carrito"></button></div>
+        </div>
+
+        <div class="cabecera">
+            <div><img src="images/logo.png" alt="logo de pastelería" class="logo"></div> 
+        </div>
+
+        <hr>
+            <nav>
+                <button>Inicio</button>
+                <button>Productos</button>
+                <button>Nosotras</button>
+                <button>Contacto</button>
+            </nav>
+        <hr>
+    </header>
+
+    <body>       
+
+        <img src="images/torta.png" alt="torta con guia de fotos" style="width: 80%">
+        
+        
+        <h2 class="titulo-categorías">CATEGORíAS:</h2>
+        <div class="categorías">
+            <div class="flex-items"><button><img src="images/Pastelería Tematica.png" ></button></div>
+            <div class="flex-items"><button><img src="images/Pastelería clasica.png" ></button></div>
+            <div class="flex-items"><button><img src="images/cositas ricas.png" ></button></div>
+        </div>
+        <div class="form">
+        <h2>Hacé tu pedido Personalizado:</h2>
+        <form
+            action="https://formspree.io/f/xdorproa"
+            method="POST"
+            >
+            <label>
+                Nombre:
+                <input type="name" name="name" required>
+            </label>
+            <br>
+            <Label>
+                WhatsApp:
+                <input type="text" name="WhatsApp" required>
+            </Label>
+            <br>
+            <label>
+                Tipo de evento: 
+                <input type="text" name="evento" required>
+            </label>
+            <br>
+            <label>
+                Fecha del evento:
+                <input type="date" name="Fecha" readonly>
+            </label> 
+            <br>
+            <label>
+                Tu mensaje:
+                <textarea name="message" required></textarea>
+            </label>
+            <br>
+
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+        </form>
+    </div>
+        <hr>
+</body>     
+    
+    <div class="pie">
+        <footer>
+            <div><p>Derechos reservados</p></div>
+            <div><p>Politicas de privacidad</p></div>
+        </footer>
+    </div>
+
+</html>
