@@ -13,15 +13,11 @@
     justify-content: center;
 }
 
-.flex-items{
-   margin: 2%;
-   width: 80%;
-}
-
 button {
     color: rgb(252, 152, 168);
     background-color: white;
     border: rgb(252, 152, 168);
+    border-style:double;
  }
 
  .crear-iniciar-carrito {
@@ -40,6 +36,7 @@ button {
    justify-content: center;
  }
 
+
  .form{
     text-align: center;
     color: rgb(252, 152, 168);
@@ -54,9 +51,14 @@ button {
    justify-content: center;
 }
 
-@media screen and (max-whidh:400px){
-   .cflex-items{
+@media (max-width: 300px) {
+   body{
+      background-color: pink;
+   }  
+   
+   .flex-items{
+      display: flex;
       flex-direction: column;
    }
 }
- 
+
